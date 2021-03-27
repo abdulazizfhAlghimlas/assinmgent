@@ -1,0 +1,158 @@
+body{
+
+	margin:0px;
+	padding: 0px;
+	background: #34495e;
+}
+
+.box{
+
+	width: 500px;
+    height: 500px;
+	background: #9b59b6;
+	top: 50%;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 40px;
+	align-items: center;
+	border-radius: 40px 0 40px 0 ;
+
+}
+
+h1{
+	color: white;
+	font-weight: 900;
+	top: 3%; 
+    left: 20%;
+    position: absolute;
+    color: green;
+}
+
+#res{
+	color: yellow;
+	position: absolute;
+	top: 1%;
+	left: 50%;
+	font-weight: 900;
+}
+
+#city{
+	width: 222px;
+	background: red;
+	height: 100px; 
+    position: absolute;
+    top: 22%;
+    right: 0;
+}
+
+#neaber{
+	width: 222px;
+	background: blue;
+	height: 100px; 
+    position: absolute;
+    top: 22%;
+    left:  0;
+}
+
+
+#schema{
+
+
+	width: 222px;
+	background: blue;
+	height: 100px; 
+    position: absolute;
+    top: 40%;
+    right:  0;
+
+}
+
+
+#space{
+
+
+
+	width: 222px;
+	background: red;
+	height: 100px; 
+    position: absolute;
+    top: 40%;
+    left:   0;
+
+
+
+}
+
+#street{
+
+
+width: 222px;
+	background:red;
+	height: 100px; 
+    position: absolute;
+    top: 58%;
+    right:    0;
+
+
+
+}
+
+
+
+#sr{
+
+
+
+width: 222px;
+	background:blue;
+	height: 100px; 
+    position: absolute;
+    top: 58%;
+    left:     0;
+
+
+
+}
+
+
+
+.box select{
+
+	background: #0563af
+	color:#fff;
+	padding: 10px;
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+
+   border:none;
+   font-size: 20px;
+
+   box-shadow: 0 5px  25px rgba(0,0,0,.5);
+   -webkit-appearance:button;
+
+   outline: none; 
+}
+
+
+#selectt:before{
+
+	content: '';
+	position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background: #007ce0;
+}
+
+span{
+
+	color: #007ce0;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}

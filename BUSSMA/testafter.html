@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="testafter.css">
+
+
+	<script>
+		
+		function passvalues() {
+			var spacee = getElementsById("space").value;
+			localStorage.setItem("textvalue",spacee);
+			return false;
+
+		}
+
+
+
+	</script>
+	<title>test after created</title>
+</head>
+<body>
+
+	<form class="box" action="nextpage.html">
+		<header class="headers">
+			<h1>احسب عقارك</h1>
+		</header>
+		
+		<input type="text" name="" placeholder="المدينة">
+        <input type="text" name="" placeholder="الحي">
+        <input type="text" name="" placeholder="المخطط">
+        <!-- space-->
+        <input type="text" name="" id="space" placeholder="الماسحة"  ><!-- onkeypress="inNumber(evt)" -->
+        <input type="text" name="" placeholder="عرض الشارع ">
+        <input type="text" name="" placeholder="عدد الشوارع">
+        <br>
+        <br>
+
+        <select class="select">
+                <option>a</option>
+                <option>b</option>
+                <option>c</option> 
+                <option>d</option>
+        </select>
+        <br>
+        <p> الخدمات </p>
+        <br>
+        <input type="checkbox" name="water">
+        <label for="water"style="color: black">الماء</label>
+        <input type="checkbox" name="ele">
+        <label for="ele"style="color: black">الكهرباء </label>
+        <input type="checkbox" name="tel">
+        <label for="tel"style="color: black">الهاتف </label>
+        <input type="checkbox" name="e2">
+        <label for="e2"style="color: black">الصرف</label>
+
+        <br>
+        <input type="submit" name="" value="احسبها" onclick="passvalues();">
+
+
+	</form>
+
+
+
+<!-- <script>
+        
+        function inNumber(evt) {
+                var char = String.formcharCode(evt.which);
+                if (!/[0-9]/.test(chae)) {
+
+                evt.preventDefault();
+
+                }
+                
+        }
+
+
+
+</script> -->
+</body>
+</html>

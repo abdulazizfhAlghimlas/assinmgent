@@ -1,0 +1,38 @@
+body{
+	font-size: 10px;
+	background-color:#ecf0f1;
+    
+
+}
+
+
+
+
+#nav-header{
+  background-color: #34495e; 
+  border-radius: 0;
+  height: 120px;
+  border:0;
+}
+
+
+#logo{
+	background: url("logo12.jpg") no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 12px 20px 0 ;
+}
+
+
+.navbar-brand a{
+ 
+
+
+}
+.navbar-brand a:hover, .navbar-brand a :focus{
+
+text-decoration: none;
+color: red;
+}
+
+

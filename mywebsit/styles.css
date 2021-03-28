@@ -29,6 +29,12 @@ body{
 
 
 }
+
+
+.navbar-brand h1{
+
+  margin: 0;
+}
 .navbar-brand a:hover, .navbar-brand a :focus{
 
 text-decoration: none;

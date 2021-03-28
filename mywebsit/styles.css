@@ -96,7 +96,7 @@ color: red;
 /******** large divices *********/
 @media (min-width: 1200px){
 
-.jumbotron{
+.container.jumbotron{
   background: url('jumbotron_1200.jpg') no-repeat;
   height: 657px;
   box-shadow: 0 0 50px #3F0C1F;
@@ -109,7 +109,7 @@ color: red;
 @media (min-width: 992px) and (max-width: 1199px)
 {
 
-.jumbotron{
+.container.jumbotron{
   background: url('jumbotron_992.jpg') no-repeat;
   height: 558px;
   box-shadow: 0 0 50px #3F0C1F;
@@ -121,7 +121,7 @@ color: red;
 @media (min-width: 768px) and (max-width: 991px)
 {
 
-.jumbotron{
+.container.jumbotron{
   background: url('jumbotron_768.jpg') no-repeat;
   height: 432px;
   box-shadow: 0 0 50px #3F0C1F;
@@ -138,5 +138,12 @@ color: red;
 .navbar-brand h1{
 
   margin: 0;
+}
+
+.container.jumbotron{
+  margin-top: 30px;
+  padding: 0;
+   box-shadow: 0 0 50px #3F0C1F;
+  border:2px solid #3F0C1F;
 }
 }

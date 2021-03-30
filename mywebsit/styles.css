@@ -139,6 +139,23 @@ color: red;
 @media (max-width: 767px)
 {
 
+  /* for footer des */
+
+.panel-footer section{
+
+  margin-bottom: 30px;
+  text-align: center; 
+}
+
+.panel-footer section:nth-child(2){
+  margin-bottom:0; 
+}
+
+.panel-footer section hr {
+  width: 50%;
+}
+
+
 .navbar-brand h1{
 
   margin: 0;
@@ -213,4 +230,39 @@ color: red;
   color: #fff;
   opacity: .6; 
 
+}
+
+
+
+
+
+body  .panel-footer  {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color:#34495e;
+  border-top: 0;
+
+
+}
+
+.panel-footer #hours{
+  color: white;
+}
+
+
+.panel-footer #address{
+  color: white;
+}
+
+
+.text-center{
+
+  color: red;
+}
+
+#address p{
+  color: #2ecc71;
+  font-size: .8em;
+  line-height: 1.8;
 }
